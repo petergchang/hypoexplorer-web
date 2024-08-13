@@ -12,7 +12,6 @@ def load_mnist(
     train: bool = True,
     num_images: int | None = None,
     num_classes: int = 10,
-    data_dir: Path = data_dir,
     seed: int = 0,
 ) -> tuple[jax.Array, jax.Array]:
     """Download and load the MNIST dataset. The pixel values are normalized to [0, 1].
@@ -30,7 +29,7 @@ def load_mnist(
     """
     key = jr.key(seed)
     transform = Compose([Resize((num_pixels_per_dim, num_pixels_per_dim)), ToTensor()])
-    mnist_data_dir = data_dir / "mnist"
+    mnist_data_dir = Path(Path.cwd(), "data", "mnist")
     mnist_data_dir.mkdir(exist_ok=True, parents=True)
     dataset = torchvision.datasets.MNIST(
         root=mnist_data_dir, train=train, download=True, transform=transform
