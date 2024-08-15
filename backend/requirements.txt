@@ -1,4 +1,5 @@
 fastapi
-jax
+numpy
+psycopg2-binary
 pydantic
-torchvision
+uvicorn
