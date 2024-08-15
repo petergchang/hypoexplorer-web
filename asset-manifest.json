@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hypoexplorer-web/static/css/main.890445bd.css",
+    "main.js": "/hypoexplorer-web/static/js/main.8a823186.js",
+    "static/js/453.9c899529.chunk.js": "/hypoexplorer-web/static/js/453.9c899529.chunk.js",
+    "index.html": "/hypoexplorer-web/index.html",
+    "main.890445bd.css.map": "/hypoexplorer-web/static/css/main.890445bd.css.map",
+    "main.8a823186.js.map": "/hypoexplorer-web/static/js/main.8a823186.js.map",
+    "453.9c899529.chunk.js.map": "/hypoexplorer-web/static/js/453.9c899529.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.890445bd.css",
+    "static/js/main.8a823186.js"
+  ]
+}
