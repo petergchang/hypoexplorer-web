@@ -1,0 +1,5 @@
+fastapi
+numpy
+psycopg2-binary
+pydantic
+uvicorn
